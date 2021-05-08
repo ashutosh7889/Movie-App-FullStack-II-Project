@@ -1,15 +1,32 @@
 {
-  "name": "movie_app",
-  "version": "1.0.0",
-  "description": "Movie-App-FullStack-II-Project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ashutosh Kumar",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.12.7"
-  }
+    "name": "movie_app",
+    "version": "1.0.0",
+    "description": "Movie-App-FullStack-II-Project",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server/index.js",
+        "backend": "nodemon server/index.js",
+        "frontend": "npm run start --prefix client",
+        "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
+    },
+    "author": "Ashutosh Kumar",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "body-parser": "^1.19.0",
+        "cookie-parser": "^1.4.5",
+        "cors": "^2.8.5",
+        "debug": "^4.3.1",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "moment": "^2.29.1",
+        "mongoose": "^5.12.7",
+        "react-redux": "^7.2.4",
+        "saslprep": "^1.0.3",
+        "supports-color": "^9.0.0"
+    },
+    "devDependencies": {
+        "concurrently": "^6.1.0",
+        "nodemon": "^2.0.7"
+    }
 }
