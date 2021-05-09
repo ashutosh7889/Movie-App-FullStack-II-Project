@@ -20,10 +20,12 @@
 
 .menu__container .ant-menu-item {
     padding: 0px 5px;
+    line-height: 70px;
 }
 
 .menu__container .ant-menu-submenu-title {
     padding: 10px 20px;
+    line-height: 70px;
 }
 
 .menu__container .ant-menu-item a,
