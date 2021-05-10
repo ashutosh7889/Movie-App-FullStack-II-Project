@@ -67,7 +67,7 @@ function MovieDetailPage(props) {
                     </Descriptions>
 
 
-                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                    <div style={{ display: 'flex', justifyContent: 'center', marginTop:"30px", marginBottom:"30px" }}>
                         <Button onClick={handleClick}>Toggle Actor View</Button>
                     </div>
 
