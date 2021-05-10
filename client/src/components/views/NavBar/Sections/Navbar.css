@@ -32,6 +32,9 @@
 .menu__container .ant-menu-item a,
 .menu__container .ant-menu-submenu-title a {
     padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .menu__container .ant-menu-horizontal {
