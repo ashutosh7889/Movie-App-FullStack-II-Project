@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Popover } from 'antd';
 import { IMAGE_URL } from '../../Config';
+import './favoritePage.css';
 
 function FavoritePage() {
 
